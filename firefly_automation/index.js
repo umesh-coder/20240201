@@ -65,7 +65,7 @@ async function firefly_move(width, height, moves) {
 
 /**
  * @function sleep is used to manage time after each iteration
- * @param {never} ms 
+ * @param {Number} ms 
  * @returns Promise
  */
 
