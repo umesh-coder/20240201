@@ -53,7 +53,7 @@ async function firefly_move(width, height, moves) {
       console.log(row);
     }
 
-    // Move the star to a new random position
+    // Move the firefly to a new random position
     firefly_row = Math.floor(Math.random() * height);
     firefly_Column = Math.floor(Math.random() * width);
 
@@ -73,7 +73,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Call the movingStar function with the specified width, height, and number of moves
+// Call the firefly_move function with the specified width, height, and number of moves
 (async () => {
   await firefly_move(width, height, 500);
 })();
